@@ -122,7 +122,7 @@ LLR = log_BCJR(LLR(deintr_map),log_gamma1,num_bit);
 LLR = log_BCJR(LLR(intr_map),log_gamma2,num_bit); %7
 
 LLR = log_BCJR(LLR(deintr_map),log_gamma1,num_bit);
-LLR = log_BCJR_END(LLR(intr_map),log_gamma2,num_bit); % 8: outputs aposteriori probabilities
+LLR = log_BCJR_END(LLR(intr_map),log_gamma2,num_bit); % 8: outputs aposteriori LLR
 
 % hard decision 
 LLR = LLR(deintr_map);
